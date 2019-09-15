@@ -130,8 +130,8 @@ section .section-title {
 /* SERVICES SECTION */
 
 .carousel-item h5 {
-    font-size: 1.4rem;
-    color: #000000;
+    font-size: 1.6rem;
+    color: #fff;
 }
 
 .carousel-item img {
@@ -182,4 +182,14 @@ section .section-title {
 .footer-copyright{
     position: relative;
     bottom: -250px;
+}
+
+.col-md-3 p{
+    top: 26%;
+    right: 19%;
+}
+
+form {
+    position: relative;
+    top: 23%;
 }
