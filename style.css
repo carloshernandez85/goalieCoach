@@ -1,0 +1,185 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body,
+html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/goalieCoachBG.png");
+    height: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    size: 1.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.btn2 {
+    top: 55%;
+    left: 48%;
+    position: absolute;
+
+}
+
+/* SERVICES SECTION */
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#what-we-do {
+    background: #ffffff;
+}
+
+#what-we-do .card {
+    padding: 1rem !important;
+    border: none;
+    margin-bottom: 1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#what-we-do .card:hover {
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+#what-we-do .card .card-block {
+    padding-left: 50px;
+    position: relative;
+}
+
+#what-we-do .card .card-block a {
+    color: #007b5e !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#what-we-do .card .card-block a i {
+    display: none;
+
+}
+
+#what-we-do .card:hover .card-block a i {
+    display: inline-block;
+    font-weight: 700;
+
+}
+
+#what-we-do .card .card-block:before {
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+}
+
+#what-we-do .card .block-1:before {
+    content: "\f135";
+}
+
+#what-we-do .card .block-2:before {
+    content: "\f041";
+}
+
+#what-we-do .card .block-3:before {
+    content: "\f002";
+}
+
+#what-we-do .card .block-4:before {
+    content: "\f209";
+}
+
+#what-we-do .card .block-5:before {
+    content: "\f0a1";
+}
+
+#what-we-do .card .block-6:before {
+    content: "\f0ad";
+}
+
+#what-we-do .card:hover .card-block:before {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+/* SERVICES SECTION */
+
+.carousel-item h5 {
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+/* FOOTER SECTION */
+
+/* Set the size of the div element that contains the map */
+.page-footer {
+    height: 60%;
+    background-color: #322e2e;
+    color: #ffffff;
+    padding: 0 4%;
+}
+
+#map {
+    height: 135%;
+    width: 700px;
+    left: 0px;
+    top: 20%;
+}
+
+.col-md-6 p {
+    /* max-width: 10%; */
+    position: absolute;
+    top: 20%;
+}
+
+.callus, .rink-address {
+ position: relative;
+ top: 20%;
+}
+
+.contact {
+    position: relative;
+    line-height: 1.5rem;
+    top: 16%;
+}
+
+.list-unstyled{
+    position: relative;
+    top: 15%;
+}
+
+.footer-copyright{
+    position: relative;
+    bottom: -250px;
+}
